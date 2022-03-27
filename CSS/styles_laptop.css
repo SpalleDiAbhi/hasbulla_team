@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  font-family: Raleway;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #DFDFDF;
+}
+
+video{
+  width: 620px;
+  height: 440px;
+  display: block;
+  margin: auto;
+}
+
+.roster{
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.small_icon{
+  width: 1rem;
+}
+
+.adjust_small_icon{
+  vertical-align: middle;
+  margin-bottom: 4px;
+  width: 1rem;
+}
+
+.adjust_small_icon_marco{
+  vertical-align: middle;
+  margin-bottom: 4px;
+  width: 1rem;
+}
+
+.brizz_image{
+  width: 2%;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #333;
+  color: white;
+  padding: 1.5%;
+  font-size: small;
+}
+
+.table_title{
+  font-size: 25px;
+}
+
+.table_subtitle{
+  font-size: 20px;
+}
+
+.center_audio{
+  text-align: center;
+}
+
+.margin_audio{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.image_profile{
+  width: 20rem;
+  height: 12rem;
+  vertical-align:middle;
+}
+
+.black_background{
+  background-color: black;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th{
+  background-color: rgb(135, 206, 250);
+  text-align: center;
+}
+
+span{
+  font-family: Roboto;
+}
+
+td{
+  background-color: white;
+  font-size: 16px;
+}
+
+.home_title{
+  font-size: 30px;
+}
+
+.quote{
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.quote_margin{
+  margin-left: 33.3%;
+  margin-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1{
+  margin: auto;
+}
+
+.navbar-links ul {
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.image_modifier{
+  height: 4.7rem;
+  width: 4.7rem;  
+}
+
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 1.75rem;
+}
+
+.navbar-links li:hover {
+  background-color: orange;
+}
